@@ -1,0 +1,52 @@
+#Comparism operators that return in boolean(True or False)
+x = 4
+y = 5
+print(('x>y is', x>y))
+
+#Logical operators that return in boolean( True or False)(Logical operators are: AND, OR and NOT)
+a = True
+b = False
+print(('a and b is',a and b))
+print(('a or b is',a or b))
+print(('not a is',not a))
+
+#Walrus Operator(Assignment Expressions or Variables Assignment)
+#previous method of variable assignment
+variable=False
+print(variable)
+
+#using Walrus operator allows a single line code execution(It is a recent addition to python)
+print(variable:=False)
+
+#Decision making statements (if, if-else and elif)
+#if is used to determine true or false
+#== is used for 'equal to' and used to compare 2 conditions
+#eg1 for if statement
+if 5 == 5:
+    print("You successfully learned  if statement")
+#eg2
+#No result will be printed here because statement is evaluaated as false
+if 5 > 9:
+    print("Oops!Not this time")
+
+#if-else statements
+#Eg3
+#if conditions:
+ #   statements if true
+#else:
+ #   statements if false
+
+ #Eg4
+if 5 == 3:
+     print("You successfully learned if statement.")
+else:
+     print("Wow! You also leaned about else statement.")
+#Eg 5
+if 5==4:
+    print("An if statement. Oh!")
+elif 4==4:
+    print("That's something new.")
+elif 4>=9:
+    print("Really?")
+else:
+    print("Not this time")
